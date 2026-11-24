@@ -1,0 +1,23 @@
+# Резервные копии и реальные производственные данные — не публиковать
+recipes-*.json
+*backup*
+*.bak
+export*.json
+import*.json
+data/
+private/
+
+# Фотографии и скриншоты заводской программы
+*.jpg
+*.jpeg
+*.png
+*.heic
+*.webp
+*.gif
+
+# Файлы ТЗ и заметки
+*.txt
+
+# Системные
+.DS_Store
+Thumbs.db
